@@ -397,7 +397,7 @@ class Billing_Software:
         current_time = time.strftime("%H:%M:%S %p", t)
         date = datetime.datetime.fromtimestamp(ts).strftime('%d-%m-%Y')
 
-        self.textarea.insert(END, "             WELCOME MORE RETAIL")
+        self.textarea.insert(END, "        WELCOME ROBOTICS WORLD RETAIL")
         self.textarea.insert(END, f"\nDATE : {date}       TIME : {current_time}")
         self.textarea.insert(END, f"\nBILL NO. : {self.c_bill.get()}")
         self.textarea.insert(END, f"\nNAME : {self.c_name.get()}            ")
